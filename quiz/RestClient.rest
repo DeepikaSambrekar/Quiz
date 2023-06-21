@@ -1,0 +1,16 @@
+### Get all questions
+GET http://localhost:8000/api/quiz
+
+### Add an question
+POST  http://localhost:8000/api/quiz HTTP/1.1
+content-type: application/json
+
+### Search question  by topic
+GET http://localhost:8000/api/quiz/2
+
+### UPDATE an Question
+PUT  http://localhost:8000/api/quiz/4
+content-type: application/json
+
+### Delete a questions
+DELETE    http://localhost:8000/api/quiz/2
